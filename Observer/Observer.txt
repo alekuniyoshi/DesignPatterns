@@ -1,0 +1,17 @@
+The Observer pattern is a design pattern used in software development to allow objects 
+to be notified automatically when something changes in another object.
+In simpler terms, it's like having a subscription to a magazine. When you subscribe 
+to a magazine, you are automatically notified when a new issue is published. Similarly, 
+in the Observer pattern, an object (known as the observer) subscribes 
+to another object (known as the subject) and is notified automatically when the subject changes.
+
+This can be useful in situations where you need to keep multiple objects in 
+sync with each other. For example, if you have a list of data that is being 
+displayed in multiple places in your application, you can use the Observer 
+pattern to ensure that all instances of the list are 
+updated automatically when the data changes.
+
+The Observer pattern is also often used in event-driven systems, 
+where multiple objects need to respond to a particular event (such as a button click). 
+Using the Observer pattern, each object can register itself as an observer of the 
+event and be notified automatically when the event occurs.

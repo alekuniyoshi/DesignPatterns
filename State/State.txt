@@ -1,0 +1,22 @@
+The State pattern is a design pattern used in software development to allow
+an object to change its behavior based on its internal state.
+
+In simpler terms, it's like a traffic light. A traffic light has different states (red, yellow, 
+green) 
+and changes its behavior (i.e. the color of the light it displays) based on its current state. 
+Similarly, in the State pattern, an object has different states and changes its behavior based
+on its current state.
+
+This can be useful in situations where you have an object that needs to behave differently 
+depending on its internal state. 
+For example, suppose you have a vending machine that dispenses different types 
+of products based on its current state (such as whether it has enough change,
+or whether it has enough stock of a particular product). Using the State pattern,
+you can define different states for the vending machine 
+(such as "has change", "out of stock", etc.),
+and the vending machine can change its behavior based on its current state.
+The State pattern is often used in combination with other patterns, such as the Strategy pattern, 
+to provide even more flexibility and modularity in the behavior of objects. 
+By separating the behavior 
+of an object into different states, you can make the code more maintainable 
+and easier to extend over time.

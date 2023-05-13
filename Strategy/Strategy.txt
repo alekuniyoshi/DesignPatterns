@@ -1,0 +1,19 @@
+The Strategy pattern is a design pattern used in software 
+development to allow for different algorithms or methods to be 
+used interchangeably within an application.
+
+In simpler terms, it's like having different tools in a toolbox that 
+you can choose from depending on the task at hand. Similarly, in 
+the Strategy pattern, you have a set of interchangeable 
+algorithms or methods that can be used to perform a particular 
+task. Each algorithm or method is encapsulated in its own class, 
+making it easy to swap one implementation for another without 
+affecting the rest of the code.
+
+This can be useful in situations where you need to perform a task 
+in different ways depending on certain conditions or inputs. 
+For example, a sorting algorithm can be implemented using different 
+strategies such as bubble sort, quick sort, or merge sort. Using 
+the Strategy pattern, you can easily swap out one sorting 
+algorithm for another without having to modify the rest of the code that uses the sorting 
+algorithm. This makes the code more flexible and easier to maintain over time.

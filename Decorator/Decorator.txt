@@ -1,0 +1,19 @@
+The Decorator pattern is a design pattern used in software development to dynamically 
+add new behaviors or features to an existing object without modifying its original code.
+In simpler terms, it's like adding toppings to a pizza. When you order a pizza, you can 
+add different toppings to customize it to your liking, 
+but the original pizza remains unchanged. Similarly, in the Decorator pattern, 
+you can add new behaviors or features (known as decorators) 
+to an existing object without changing its original code.
+
+This can be useful in situations where you want to add new functionality 
+to an object, but don't want to modify its original code. 
+For example, you might have a base object that represents a window 
+in a graphical user interface (GUI). Using the Decorator pattern, 
+you can add new decorators (such as a border decorator or a scroll bar decorator) 
+to the window object to customize its appearance and behavior, 
+without changing the original window object itself.
+Another advantage of the Decorator pattern is that it allows 
+you to add new features to an object at runtime, 
+rather than at compile-time. This makes the code 
+more flexible and easier to maintain over time.
